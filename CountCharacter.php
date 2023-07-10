@@ -19,7 +19,7 @@ function countCharacter($input){
             $output .= $idx .":".$row ." ";
         }
 
-        echo "Input: ". $input."<br/>";
+        echo "Input: ". $input."\n";
         echo "Output: ". $output;
     }
 }
